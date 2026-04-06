@@ -2,19 +2,19 @@ class AgentsCli < Formula
   desc "AI agents CLI tool"
   homepage "https://github.com/moqa-studio/agents-cli"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/moqa-studio/agents-cli/releases/download/v0.1.0/ags-darwin-arm64"
-      sha256 "fac4ca92db4239b1efb2a354ef9fd0ddafd74a907fcfeeedd5e25e92c3f10787"
+      url "https://github.com/moqa-studio/agents-cli/releases/download/v0.1.1/ags-darwin-arm64"
+      sha256 "026281e504ce30c38bf0c5dcc9fcba2e542b9df21c6136942c09fac55ec6eb9c"
 
       def install
         bin.install "ags-darwin-arm64" => "ags"
       end
     else
-      url "https://github.com/moqa-studio/agents-cli/releases/download/v0.1.0/ags-darwin-x64"
-      sha256 "78ce9c5cd1b0de1ab9eb58598842b87c0e1dd08f3c40d867e5a9c6fc09c306d8"
+      url "https://github.com/moqa-studio/agents-cli/releases/download/v0.1.1/ags-darwin-x64"
+      sha256 "8e41761c4b9052ff306e6f47e4f6be90559ca428fc796bc843fcc46cdbe07f8f"
 
       def install
         bin.install "ags-darwin-x64" => "ags"
@@ -24,8 +24,8 @@ class AgentsCli < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/moqa-studio/agents-cli/releases/download/v0.1.0/ags-linux-x64"
-      sha256 "4aa94150b5ffa4387800a51d78a011e7643fe32e7ca8590b3281afce2a9f0612"
+      url "https://github.com/moqa-studio/agents-cli/releases/download/v0.1.1/ags-linux-x64"
+      sha256 "4f4a833f1b433ae048ee05ea43ac3a0f7b5bd2367023bb8ab7a011ab624b0cc2"
 
       def install
         bin.install "ags-linux-x64" => "ags"
