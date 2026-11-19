@@ -1,28 +1,28 @@
 class LineLx < Formula
   desc "Put your company's agent plugins on this machine"
   homepage "https://github.com/moqa-studio/line-lx-cli"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.2.0/line-lx_0.2.0_darwin_arm64.tar.gz"
-      sha256 "f94b43afc13f7e072738c7f9b84b1842606b0a3a3599e11cf079e470049c9261"
+      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.3.0/line-lx_0.3.0_darwin_arm64.tar.gz"
+      sha256 "b3f09eaa4b5a8c8ac63bbb0ee627b0407876e836b6856f28438519fc4d09d6ca"
     end
     on_intel do
-      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.2.0/line-lx_0.2.0_darwin_amd64.tar.gz"
-      sha256 "9c53e77bf99c6630bdde0fd1213180c4a2b5106f7f0db7f42a3651d3dd564d81"
+      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.3.0/line-lx_0.3.0_darwin_amd64.tar.gz"
+      sha256 "ea8d2b15394070ee53cc018b14a8ab350a8cb6880b57ced9228041b01917c7e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.2.0/line-lx_0.2.0_linux_arm64.tar.gz"
-      sha256 "2b4f79a8c9218deeb6ed1906bf0de9fbf6aa3d5829b93b364bcf06cf091fc922"
+      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.3.0/line-lx_0.3.0_linux_arm64.tar.gz"
+      sha256 "f42c537f915d2fca6f948247d6b89ef77241687e7a0350c9c4ca188bebd6e2f0"
     end
     on_intel do
-      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.2.0/line-lx_0.2.0_linux_amd64.tar.gz"
-      sha256 "c6c6cd74a000f0119ad0f528fcb0d2a96c50d4903e62cec0845ccd9b44b9b1fc"
+      url "https://github.com/moqa-studio/line-lx-cli/releases/download/v0.3.0/line-lx_0.3.0_linux_amd64.tar.gz"
+      sha256 "e78738aa2553f798972463956fe768b7d46c424eae12445ca615f072114d7322"
     end
   end
 
